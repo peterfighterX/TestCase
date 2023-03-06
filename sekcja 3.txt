@@ -1,0 +1,32 @@
+TESTOWANIE FUNKCJONALNOŚCI APLIKACJI - WYŚWIETLANIE LISTY KLIENTÓW WRAZ Z PODSTAWOWYMI INFORMACJAMI
+- włączenie aplikacji
+- sprawdzenie czy aplikacja wyświetla informacje w formie tabeli z czterema kolumnami (First Name, Last Name, Email, Action)
+- sprawdzenie czy w kolumnie Action znajdują się linki Update (umożliwiający aktualizację danych klienta) i Delete (umożliwiający usunięcie go z listy)
+- sprawdzenie czy nad tabelą znajduje się przycisk Add Customer i czy po kliknięciu przekieruje użytkownika aplikacji do formularza tworzenia nowego klienta
+- sprawdzenie czy strona z listą użytkowników posiada nagłówek z nazwą aplikacji
+TESTOWANIE FUNKCJONALNOŚCI APLIKACJI - DODAWANIE NOWEGO KLIENTA
+- sprawdzenie czy po kliknięciu przycisku Add Customer otworzy się formularz dodawania nowego klienta
+- sprawdzenie czy formularz zawiera pola First Name, Last Name i Email
+- sprawdzenie czy wszystkie pola są oznaczone jako obowiązkowe
+- sprawdzenie czy jakieś niewypełnione pole przy próbie zapisu zostanie podświetlone na czerwono oraz czy pojawia się informacja, że użytkownik nie powinien zostać dodany
+- sprawdzenie czy można dodać użytkownika o adresu email, który już istnieje w bazie danych
+- sprawdzenie czy pole email zostało wypełnione w odpowiednim formacie
+- sprawdzenie czy pierwsza litera pola First Name i Last Name automatycznie zmienia się na wielką
+- sprawdzenie czy po wprowadzeniu odpowiednich danych i naciśnięciu przycisku Save, użytkownik zostaje przekierowany do strony z listą, na której powinien znajdować się nowo dodany klient
+TESTOWANIE FUNKCJONALNOŚCI APLIKACJI - AKTUALIZACJA DANYCH KLIENTA
+- włączenie aplikacji
+- kliknięcie przycisku Update
+- sprawdzenie czy po kliknięciu przycisku Update, formularz wyświetla trzy pola First Name, Last Name, Email
+- sprawdzenie czy jakieś niewypełnione pole przy próbie zapisu zostanie podświetlone na czerwono oraz czy pojawia się informacja, że użytkownik nie powinien zostać dodany
+- sprawdzenie czy można dodać użytkownika o adresu email, który już istnieje w bazie danych
+- sprawdzenie czy pole email zostało wypełnione w odpowiednim formacie
+- sprawdzenie czy pierwsza litera pola First Name i Last Name automatycznie zmienia się na wielką
+- sprawdzenie czy po wprowadzeniu odpowiednich danych i naciśnięciu przycisku Save, użytkownik zostaje przekierowany do strony z listą, na której powinien znajdować się nowo dodany klient
+TESTOWANIE FUNKCJONALNOŚCI APLIKACJI - USUWANIE KLIENTA Z LISTY
+- włączenie aplikacji
+- kliknięcie przycisku Delete
+- sprawdzenie czy po kliknięciu przycisku Delete wyświetla się okno proszące o potwierdzenie wykonania operacji usunięcia
+- akceptacja wykonania operacji usunięcia klienta z listy
+- sprawdzenie czy klient został usunięty z listy
+- odrzucenie wykonania operacji usunięcia klienta z listy  
+- sprawdzenie czy klient pozostał na liście
